@@ -25,4 +25,4 @@ jobs:
       # Step 3: Install dependencies and run tests
       - name: Run Maven Tests
         run: 
-          mvn -b clean test
+          mvn clean test
