@@ -10,6 +10,7 @@ public class MainTest {
     public void testAddition() {
         assertEquals(2, Main.addition(1, 1));
         assertNotEquals(3, Main.addition(1, 1));
+        assertEquals(0, Main.addition(-1, 1));
     }
 
 
